@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digimon API</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="container mt-5">
+        <h1>DIGIMON</h1>
+        <div class="dropdown mt-3">
+        <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton">
+            Selecciona un Digimon
+        </button>
+        <div class="dropdown-menu" id="dropdownMenu"></div>
+        </div>
+    </div>
+
+
+
+    <section id="container1">
+        <div class="card" id="digi1">
+            <img class="card-img-top" src="./img/digi-card.png" id="img-digi">
+            <div class="card-body">
+                <h5 class="card-title">DIGIMON</h5>
+                <p class="card-text">Nombre DIGIMON</p>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="container-input">
+        <input type="text" id="input-name" name="" placeholder="Escriba Nombre del Digimon">
+    </div>
+
+
+    <audio id="select-sound" src="./sound/brave-heart-digimon.mp3" preload="auto"></audio>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>

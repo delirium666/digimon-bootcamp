@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    margin: 50px ;
+}
+
+#digi1{
+    display: flex;
+    justify-content: center;
+    width: 18rem;
+    height: 400px;
+    margin: 0 auto;
+    border: 3px solid #373332;
+}
+
+#img-digi:hover{
+    transition: 1s;
+    opacity: 0.8;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+.card-title{
+    text-align: center;
+
+}
+.card-text{
+    text-align: center;
+}
+.card-body:hover{
+    transition: 1s;
+    font-weight: 900;
+
+}
+.card{
+    background-color: darkslategray;
+    color: white;
+}
+
+#input{
+    margin: 0 auto;
+    width: 165px;
+    border-radius: 8px;
+    border-color: blueviolet;
+    padding: 10px 20px;
+
+}
+
+#container-input {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top{
+    display: flex;
+    
+}
+
+.dropdown {
+    position: relative;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #d4d4d4;
+    max-height: 300px;
+    overflow-y: scroll;
+    z-index: 100;
+}
+.dropdown-menu.show {
+    display: block;
+}
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.dropdown-item:hover {
+    background-color: #e9e9e9;
+}
+
+
